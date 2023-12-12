@@ -7,8 +7,10 @@ edition = "2021"
 
 [dependencies]
 bip32 = { version = "0.5.1", features = ["secp256k1"] }
-bitcoin = "0.31.0"
+bitcoin = "0.23.0"
 btc-transaction-utils = "0.9.0"
+dotenv = "0.15.0"
 hex = "0.4.3"
-secp256k1 = "0.28.0"
+rocket = { version = "0.5.0", features = ["json"] }
+secp256k1 = "0.17.2"
 serde_json = "1.0.108"
